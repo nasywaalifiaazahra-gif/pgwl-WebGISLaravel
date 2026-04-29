@@ -36,7 +36,7 @@
                         <th scope="row">2</th>
                         <td>Alun-alun utara</td>
                         <td>Halaman depan keraton Jogja</td>
-                    </tr>   
+                    </tr>
                     <tr>
                         <th scope="row">3</th>
                         <td>Gembira Loka Zoo</td>

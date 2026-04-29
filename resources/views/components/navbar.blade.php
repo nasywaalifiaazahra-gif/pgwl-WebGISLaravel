@@ -7,17 +7,21 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link active" href="{{route('home')}}">Home</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="{{route('peta')}}">Peta</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="{{route('tabel')}}">Tabel</a>
-            </li>
-        </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('home') }}"><i class="fa-solid fa-house"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="{{ route('peta') }}"><i
+                            class="fa-solid fa-map"></i> Peta</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('tabel') }}"><i class="fa-solid fa-table"></i> Tabel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang</a>
+                </li>
+            </ul>
         </div>
     </div>
     </nav>
